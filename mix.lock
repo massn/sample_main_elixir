@@ -1,0 +1,5 @@
+%{"cowboy": {:git, "https://github.com/ninenines/cowboy.git", "ee3ad5e51005b453230804036e092e1d2ceebe4f", [ref: "0.10.0"]},
+  "cowlib": {:git, "git://github.com/extend/cowlib.git", "e2ffefe828b918486e2cd76e44c54ae9b62c616e", [ref: "0.6.2"]},
+  "ranch": {:git, "git://github.com/extend/ranch.git", "3189ef2d47843945efc96c224963380462c33d40", [ref: "0.10.0"]},
+  "sample_sub_elixir1": {:git, "https://github.com/massn/sample_sub1.git", "1700f7e6d4d708351a2c02274643646808e35911", [tag: "v0.0.1"]},
+  "sample_sub_elixir2": {:git, "https://github.com/massn/sample_sub2.git", "0fe69055e0da389d4b28257e4db44495d1a3e641", [tag: "v0.0.1"]}}
