@@ -1,4 +1,5 @@
 SampleMainElixir
 ================
 
-** TODO: Add description **
+Just to check the deps-managing of mix.
+
