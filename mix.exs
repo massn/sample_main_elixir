@@ -9,7 +9,7 @@ defmodule SampleMainElixir.Mixfile do
   end
 
   defp deps do
-    [{:sample_sub_elixir1, git: "https://github.com/massn/sample_sub1.git", tag: "v0.0.1"},
-     {:sample_sub_elixir2, git: "https://github.com/massn/sample_sub2.git", tag: "v0.0.1"}]
+    [{:sample_sub1, git: "https://github.com/massn/sample_sub1.git", tag: "v0.0.1"},
+     {:sample_sub2, git: "https://github.com/massn/sample_sub2.git", tag: "v0.0.1"}]
   end
 end
