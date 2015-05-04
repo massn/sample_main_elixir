@@ -9,7 +9,8 @@ defmodule SampleMainElixir.Mixfile do
   end
 
   defp deps do
-    [{:sample_sub1, git: "https://github.com/massn/sample_sub1.git", tag: "v0.0.1"},
+    [ {:cowboy, git: "https://github.com/ninenines/cowboy.git", ref: "0.10.0", override: true},
+      {:sample_sub1, git: "https://github.com/massn/sample_sub1.git", tag: "v0.0.1"},
      {:sample_sub2, git: "https://github.com/massn/sample_sub2.git", tag: "v0.0.1"}]
   end
 end
